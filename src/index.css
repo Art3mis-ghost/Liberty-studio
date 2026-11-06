@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #090a0f;
+  color: #f1f5f9;
+}
+
+/* Custom slick dark studio scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0f17;
+}
+::-webkit-scrollbar-thumb {
+  background: #232738;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b4261;
+}
+
+/* Timeline scrubbing range input styling */
+input[type="range"] {
+  accent-color: #8b5cf6;
+}

@@ -1,0 +1,76 @@
+[
+  {
+    "id": "proj_default_01",
+    "name": "Cyberpunk Odyssey Campaign",
+    "description": "Cinematic short film trailer and vertical social media cutdowns.",
+    "createdAt": 1793881290546,
+    "updatedAt": 1793975149814,
+    "assets": [
+      {
+        "type": "video",
+        "title": "Rick Astley Never Gonna Give You Up",
+        "url": "/storage/uploads/yt_dQw4w9WgXcQ_1793975131439.mp4",
+        "duration": 90,
+        "metadata": {
+          "originalUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "sourceType": "youtube"
+        },
+        "id": "asset_1793975149814_15mm",
+        "createdAt": 1793975149814
+      },
+      {
+        "type": "video",
+        "title": "Edited Video [cinematic]",
+        "url": "/storage/exports/edited_1793970151554_pse8u.mp4",
+        "metadata": {
+          "source": "/storage/generations/sample.mp4",
+          "filter": "cinematic",
+          "speed": 1.25,
+          "trim": [
+            null,
+            null
+          ]
+        },
+        "id": "asset_1793970156538_a7ve",
+        "createdAt": 1793970156538
+      },
+      {
+        "type": "image",
+        "title": "Image: \"Hyperrealistic cinematic portr...\"",
+        "url": "/storage/generations/img_1793969612157_78912.jpg",
+        "metadata": {
+          "prompt": "Hyperrealistic cinematic portrait of a cybernetic architect in rain, soft diffused volumetric lighting, 35mm lens, 8k resolution",
+          "seed": 78912,
+          "preset": "cinematic"
+        },
+        "id": "asset_1793969615269_r4jx",
+        "createdAt": 1793969615270
+      },
+      {
+        "id": "asset_init_1",
+        "type": "image",
+        "title": "Neon Skyscraper Keyframe",
+        "url": "/storage/generations/sample_hero.jpg",
+        "createdAt": 1793964090546,
+        "metadata": {
+          "prompt": "Hyperrealistic rainy futuristic Tokyo neon skyline, anamorphic 35mm",
+          "seed": 48291
+        }
+      }
+    ],
+    "savedPrompts": [
+      {
+        "id": "prompt_1",
+        "title": "Cinematic Dolly In Keyframe",
+        "prompt": "Cinematic close-up portrait of a rogue astronaut looking into a nebula, glowing visor reflections, rim lighting, 35mm film grain, 8k resolution",
+        "type": "video"
+      },
+      {
+        "id": "prompt_2",
+        "title": "Viral Hook Opener",
+        "prompt": "What happens when open-source AI outperforms billion dollar closed APIs in video generation?",
+        "type": "clip"
+      }
+    ]
+  }
+]

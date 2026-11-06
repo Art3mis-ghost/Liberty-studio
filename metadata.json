@@ -1,0 +1,6 @@
+{
+  "name": "LIBERTY STUDIO AI",
+  "description": "Professional open-source creative studio for cinematic AI image & video generation, camera control, Kixy-style video clipping, and multi-track editing.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
